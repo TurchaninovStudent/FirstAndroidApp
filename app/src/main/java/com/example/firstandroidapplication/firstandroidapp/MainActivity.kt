@@ -2,7 +2,6 @@ package com.example.firstandroidapplication.firstandroidapp
 
 import kotlin.random.Random
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
@@ -33,6 +32,6 @@ class MainActivity : AppCompatActivity() {
 
     private fun setRandom(textToInputIn : TextView) {
         textToInputIn.text = Random.nextInt(1, 6).toString()
-        textToInputIn.textSize = 48.0f;
+        textToInputIn.textSize = 48.0f
     }
 }
